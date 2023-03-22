@@ -1,0 +1,51 @@
+
+.head, .menu, .main, .footer {
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid;
+}
+.head {
+    height: 150px;
+}
+.head_logo {
+    width: 30%;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin-right: 10px;
+}
+.head_banner {
+    width: calc(100% - 30% - 14px);
+    height: 150px;
+    border: 1px solid;
+    float: left;
+}
+.menu {
+    height: 50px;
+}
+.main {
+    height: 600px;
+}
+.main_left {
+    width: 15%;
+    height: 600px;
+    float: left;
+    border: 1px solid;
+    margin-right: 10px;
+}
+.main_mid {
+    width: calc(100% - 15% - 25% - 26px);
+    height: 600px;
+    border: 1px solid;
+    float: left;
+    margin-right: 10px;
+}
+.main_right {
+    width: 25%;
+    height: 600px;
+    border: 1px solid;
+    float: left;
+}
+.footer {
+    height: 50px;
+}
