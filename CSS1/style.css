@@ -8,3 +8,17 @@ h2{
     color: blue; background: yellow;
 }
 /* h1: màu đỏ, h2: màu xanh */
+/* Tên thẻ (Bộ chọn) {
+    (Tên thuộc tính): (giá trị);
+    (Tên thuộc tính): (giá trị);
+    (Tên thuộc tính): (giá trị);
+}
+selector {
+    property_name: value;
+    property_name: value;
+    property_name: value;
+}
+bài tập
+/* 
+Họ và tên trong thẻ p, có màu chữ đỏ và cỡ chữ 20px, kiểu chữ in nghiêng.
+*/
