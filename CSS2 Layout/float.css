@@ -88,3 +88,14 @@
 }
 /* float: 2 div trên 1 hàng => tổng width < 100% */
 /* 100%+1px>100% */
+@media only screen and (max-width: 1200px) {
+.main_left {
+    display: none;
+}
+.main_mid {
+    width: calc(100% - 35% - 14px);
+}
+.main_right {
+    width: 35%;
+}
+}
