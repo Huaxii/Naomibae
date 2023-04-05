@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        .box:hover {
+            width: 400px;
+            background: yellow;
+            margin-left: 200px;
+            transition: 1s;
+        }
+        .box2 {
+            margin-top: 30px;
+            width: 200px;
+            height: 200px;
+            background: blue;
+        }
+        .box2:hover {
+            display: none;
+            /* width: 0; */
+            /* opacity: 0;*/
+        }
+        .box3 {
+            width: 200px;
+            height: 200px;
+            background: palevioletred;
+        }
+        .box3:hover {
+            transition-duration: 1s;
+            transform: rotate(180deg);
+            scale: 1.5;
+        }
+        .box4 {
+            width: 200px;
+            height: 200px;
+            background: palegreen;
+            transition: 1s;
+        }
+        .box4:hover {
+            border-radius: 100%;
+            margin-left: 200px;
+            transform: rotate(180deg);
+            scale: 2;
+            transition: all 1s;
+        }
+    </style>
+</body>
+<div class="box"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+<div class="box4">
+</div>
+<!--
+    - Khi hover lên thì: box dịch phải 200px, có thêm border
+    - Thêm 1 div class là box2, khi hover lên: biến mất
+-->
+</html>

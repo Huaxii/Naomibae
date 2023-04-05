@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box {
+            width: 500px;
+            height: 500px;
+            background: palegreen;
+            animation: Naomi 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Naomi {
+            0% {
+                background-color: palevioletred;
+            }
+            10% {
+                background: coral;
+            }
+            25% { 
+                background: cornflowerblue;
+            }
+            35% {
+                background: orangered;
+            }
+            45% {
+                background: forestgreen;
+            }
+            50% {
+                background: peachpuff;
+                opacity: 0;
+            }
+            70% {
+                background: firebrick;
+            }
+            100% {
+                background-color: powderblue;
+            }
+        }
+
+    </style>
+</body>
+<div class="box"></div>
+<!-- di chuyển từ trái sang phải, quay về. Chuyển dần thành tròn -->
+</html>
