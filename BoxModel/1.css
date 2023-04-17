@@ -1,0 +1,26 @@
+.tren {
+    width: 300px;
+    height: 500px;
+    background: pink;
+    padding: 20px 30px;
+    border: 10px dashed yellow;
+    margin: 20px 30px;
+}
+.duoi {
+    width: 500px;
+    height: 500px;
+    background: white;
+}
+.duoi {
+    border-width: 60px;
+    border-style: solid;
+    border-color: #4d8b55;
+    padding: 50px;
+    box-sizing: border-box;
+}
+h1 {
+    background: rgb(182, 179, 179) 50px;
+    color:#4d8b55;
+    font-size: 40px;
+    text-align: center;
+}

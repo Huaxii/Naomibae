@@ -1,0 +1,18 @@
+.tren {
+    width: 300px;
+    height: 150px;
+    background: red;
+    border: 10px solid rgb(50, 112, 205);
+    padding: 30px black;
+    margin: 50px white;
+}
+/* border: [size] [type] [color]; */
+.duoi {
+    width: 300px;
+    height: 150px;
+    background: blue;
+    border: 20px solid blueviolet;
+}
+/* margin: top right bottom left;
+border: top right bottom left; / border: [size] [type] [color];
+padding: top right bottom left; */
